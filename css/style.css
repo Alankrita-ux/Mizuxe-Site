@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------navigation bar-------*/
+
+body {
+  margin-top: 105px;
+}
+
+#nav-bar .navbar {
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #3292a6;
+}
+
+#nav-bar .navbar-brand img {
+  height: 60px;
+  width: 60px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#nav-bar ul li a.nav-link {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 40px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#nav-bar .text {
+  margin-top: 20px;
+}
+
+
+/*-------banner-----*/
+
+#ban {
+  background: url("../img/mountains.jpg");
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+#ban .overlay {
+  position: absolute;
+  background: #3292a6;
+  opacity: 0.9;
+  height: 600px;
+  width: 100%;
+}
+
+#ban h1 {
+  color: #fff;
+  font-size: 80px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#ban p {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+#ban .btn {
+  margin-left: 300px;
+  margin-top: 10px;
+  width: 30%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#ban img {
+  height: 650px;
+  width: 80%;
+}
+
+#ban .fa{
+  margin-right: 10px;
+}
+
+
+
+/*-------------newsletter---------*/
+
+#newsletter {
+  background-color: #333333;
+  padding: 50px;
+}
+
+#newsletter .btn {
+  width: 80%;
+  height: 45px;
+}
+
+/*--------boxes---------*/
+
+#box .card {
+  border: 1px solid #3292a6;
+  height: 200px;
+  width:20%;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+#box .frog{
+  background-color: #3292a6;
+  height: 200px;
+  width:20%;
+  margin-left: 50px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+#box .angel{
+  color: #3292a6;
+}
+
+#box .doll{
+  color: grey;
+}
+
+
+/*--------accordian--------*/
+
+#accordian h1 {
+  color: #3292a6;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#accordian p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#accordian {
+  background-color: #f8f9fa;
+}
+
+/*--------authors---------*/
+
+
+#authors h1 {
+  color: #3292a6;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#authors .lead{
+  font-size: 20px;
+}
+
+#authors h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#authors h3 {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+}
+
+#authors img {
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+#authors .card:hover{
+  background-color:#3292a6 ;
+  color: #fff;
+}
+
+#authors .fa{
+  color: #fff;
+}
+
+/*---------get in touch------*/
+
+#contact h1 {
+  margin-left: 120px;
+  margin-top: 15px;
+}
+
+#contact p {
+  margin-left: 120px;
+}
+
+#contact {
+  background-color: #f8f9fa;
+}
+
+#contact img{
+  height: 80%;
+  width: 80%;
+  margin-left: 60px;
+}
+
+#contact .btn{
+  width: 100%;
+}
+
+/*--------footer--------*/
+
+#footer{
+background-color: #3292a6;
+margin-top: 20px;
+height: 200px;
+}
+
+#footer h2{
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+margin-top: 50px;
+}
